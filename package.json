@@ -1,0 +1,33 @@
+{
+    "name": "meeting-room",
+    "version": "1.0.0",
+    "description": "A project for managing meeting rooms",
+    "scripts": {
+        "build": "tsc",
+        "dev": "nodemon src/index.ts",
+        "start": "node dist/index.js"
+    },
+    "author": "GenMentor_PJ",
+    "license": "ISC",
+    "dependencies": {
+        "@types/cors": "^2.8.17",
+        "@types/helmet": "^0.0.48",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "env-var": "^7.5.0",
+        "eslint": "^9.16.0",
+        "express": "^4.17.1",
+        "helmet": "^8.0.0",
+        "mongoose": "^8.8.3",
+        "morgan": "^1.10.0",
+        "nodemon": "^3.1.7",
+        "tsc": "^2.0.4"
+    },
+    "main": "index.js",
+    "devDependencies": {
+        "@types/dotenv": "^6.1.1",
+        "@types/mongoose": "^5.11.96",
+        "@types/morgan": "^1.9.9",
+        "typescript": "^5.7.2"
+    }
+}
