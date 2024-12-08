@@ -1,6 +1,6 @@
 # Meeting Room - Backend API Example
 
-This repository contains a Node.js project using TypeScript, MongoDB, managed with Yarn. It also includes a Docker and Docker Compose configuration to easily build and run the application in a containerized environment.
+This repository contains a Node.js project using TypeScript, Express, MongoDB, managed with Yarn. It also includes a Docker and Docker Compose configuration to easily build and run the application in a containerized environment.
 
 ## Project Structure
 This project is organized to follow a modular architecture, which helps in maintaining scalability and readability. Below is an overview of the project structure, focusing on the `src` directory and its sub-folders:
